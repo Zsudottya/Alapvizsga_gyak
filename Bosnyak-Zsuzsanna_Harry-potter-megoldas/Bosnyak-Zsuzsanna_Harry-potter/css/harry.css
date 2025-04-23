@@ -1,0 +1,59 @@
+.logo{
+height: 2rem;
+width: auto;
+margin: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    height: 500px;
+    position: relative;
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1, h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 950;
+    margin: 30px;
+    padding-left: 15px;
+}
+.feher-cim{
+    color: white;
+    border-left: 2px solid white;
+
+}
+
+.fekete-cim{
+    color: black;
+    border-left: 2px solid black;
+}
+
+ul,li{
+    line-height: 2.5rem;
+}
+
+#bemutatkozas, #megtekintheto {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#bemutatkozas p{
+    color: white;
+    text-align: justify;
+}
+.cim{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-left: 2px solid white;
+    color: white
+
+
+}
